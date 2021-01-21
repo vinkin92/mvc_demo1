@@ -1,0 +1,19 @@
+@keyframes change{
+    from{
+        background: red;
+    }
+    to{
+        background: orange;
+    }
+}
+#app4 .circle{
+    width:10vw;
+    height:10vw;
+    margin:4vw auto;
+    border:1px solid gray;
+    border-radius: 100%;
+    background: red;
+}
+#app4 .circle.active{
+    animation:change 1s infinite alternate linear;
+}
