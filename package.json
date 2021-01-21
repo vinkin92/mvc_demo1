@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }
